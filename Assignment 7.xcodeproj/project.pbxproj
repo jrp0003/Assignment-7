@@ -16,6 +16,8 @@
 		EB4182B42B852F4500296161 /* Assignment_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4182B32B852F4500296161 /* Assignment_7Tests.swift */; };
 		EB4182BE2B852F4600296161 /* Assignment_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4182BD2B852F4600296161 /* Assignment_7UITests.swift */; };
 		EB4182C02B852F4600296161 /* Assignment_7UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4182BF2B852F4600296161 /* Assignment_7UITestsLaunchTests.swift */; };
+		EB4182CD2B85422D00296161 /* NameLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4182CC2B85422D00296161 /* NameLocation.swift */; };
+		EB4182D02B85502600296161 /* CatInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4182CF2B85502600296161 /* CatInfoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EB4182B92B852F4600296161 /* Assignment 7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4182BD2B852F4600296161 /* Assignment_7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_7UITests.swift; sourceTree = "<group>"; };
 		EB4182BF2B852F4600296161 /* Assignment_7UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_7UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB4182CC2B85422D00296161 /* NameLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameLocation.swift; sourceTree = "<group>"; };
+		EB4182CF2B85502600296161 /* CatInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatInfoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,8 @@
 			children = (
 				EB41829C2B852F4300296161 /* AppDelegate.swift */,
 				EB41829E2B852F4300296161 /* SceneDelegate.swift */,
-				EB4182A02B852F4300296161 /* ViewController.swift */,
+				EB4182CE2B854FCA00296161 /* Model */,
+				EB4182D12B85506D00296161 /* View */,
 				EB4182A22B852F4300296161 /* Main.storyboard */,
 				EB4182A52B852F4500296161 /* Assets.xcassets */,
 				EB4182A72B852F4500296161 /* LaunchScreen.storyboard */,
@@ -125,6 +130,23 @@
 				EB4182BF2B852F4600296161 /* Assignment_7UITestsLaunchTests.swift */,
 			);
 			path = "Assignment 7UITests";
+			sourceTree = "<group>";
+		};
+		EB4182CE2B854FCA00296161 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB4182CC2B85422D00296161 /* NameLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB4182D12B85506D00296161 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB4182A02B852F4300296161 /* ViewController.swift */,
+				EB4182CF2B85502600296161 /* CatInfoController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4182D02B85502600296161 /* CatInfoController.swift in Sources */,
 				EB4182A12B852F4300296161 /* ViewController.swift in Sources */,
 				EB41829D2B852F4300296161 /* AppDelegate.swift in Sources */,
 				EB41829F2B852F4300296161 /* SceneDelegate.swift in Sources */,
+				EB4182CD2B85422D00296161 /* NameLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

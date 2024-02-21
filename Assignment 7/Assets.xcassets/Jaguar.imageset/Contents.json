@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "jaguar-third-biggest-cats-in-the-world.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "jaguar-third-biggest-cats-in-the-world@2x.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "jaguar-third-biggest-cats-in-the-world@3x.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
